@@ -3,6 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+
+# JetBrains (Rider, etc.)
+.idea/
+*.sln.iml
+
+
 # User-specific files
 *.rsuser
 *.suo
@@ -427,4 +433,6 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
-.DS_Store
+
+# Official VS Code C# Dev Kit Extension exclusion
+#*.lscache
